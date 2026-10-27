@@ -29,4 +29,9 @@ public class Calculator {
         }
         return a / b;
     }
+    
+    // Added from Eclipse: modulus method
+    public int modulus(int a, int b) {
+        return a % b;
+    }
 }
