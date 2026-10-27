@@ -21,4 +21,12 @@ public class Calculator {
     public int square(int n) {
         return n * n;
     }
+
+    // Added in branch v2: division method
+    public int divide(int a, int b) {
+        if (b == 0) {
+            throw new ArithmeticException("Cannot divide by zero");
+        }
+        return a / b;
+    }
 }
